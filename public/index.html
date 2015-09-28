@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>QuickChat</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="./js/MainController.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<div class="container-fluid">
+			<h1>Welcome to QuickChat</h1>
+			<div id="messages" class="push">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="footer row col-sm-12">
+		<div class="input col-sm-10">
+			<input type="text" id="message-input" class="form-control input-lg" placeholder="Message"/>
+		</div>
+		<div class="send-button col-sm-2">
+			<button id="btnSend" class="btn btn-lg btn-block" onclick="send()">Send</button>
+		</div>
+	</div>
+</body>
+</html>

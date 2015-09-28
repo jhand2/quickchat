@@ -1,0 +1,19 @@
+html, body {
+	height: 100%;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin-bottom: -4em;
+}
+
+.footer {
+	height: 4em; 
+}
+
+.btn {
+	background-color: gray;
+	color: white;
+}
